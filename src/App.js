@@ -51,7 +51,7 @@ function App() {
   useEffect(() => {
     fetchPosts();
     fetchUser();
-  }, [token]);
+  });
 
   return (
     <div className="App">
