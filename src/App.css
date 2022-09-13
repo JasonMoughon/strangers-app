@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Home-Page {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
+  padding-top: 25px;
+}
+
+.Home-Title {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: rgb(81, 243, 255);
+  width: 300px;
+}
+
+.Home-Post {
+  border-radius: 8px;
+}
+
+.AllPosts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.Posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Post-Header {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: rgb(81, 243, 255);
+  width: 300px;
+}
+
+.navigation {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(210, 210, 210);
+  border-bottom: 2px solid grey;
+  height: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-user {
+  text-align: right;
+  width: 50%;
+}
+
+.RegisteredPosts {
+  padding: 5px;
+  width: 325px;
+  height: 200px;
+  overflow-y: auto;
+  background-color: blueviolet;
+  color: bisque;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.IndividualPost {
+    padding: 5px;
+    overflow-y: auto;
+    background-color: blueviolet;
+    color: bisque;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.Edit-Form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: lightgrey;
+  padding: 15px;
+}
+
+.MessageLog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  width: 430px;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.Edit-Page {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 430px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.Send-Message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  width: 430px;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: lightgrey;
+  padding: 15px;
 }
